@@ -12,31 +12,31 @@
 /* CodeStitch Core Styles + Reset */
 @media only screen and (min-width: 0px) {
 	/* All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
-	:root {
-		--primary: #ff6a3e;
-		--primaryLight: #ffba43;
-		--secondary: #ffba43;
-		--secondaryLight: #ffba43;
-		--headerColor: #1a1a1a;
-		--bodyTextColor: #4e4b66;
-		--bodyTextColorWhite: #fafbfc;
+    :root {
+        --primary: #007bff;            /* Electric Blue - For buttons & highlights */
+        --primaryLight: #00a8ff;       /* Lighter Blue */
+        --secondary: #003366;          /* Deep Navy */
+        --secondaryLight: #00509d;     /* Mid-tone Navy */
+        --headerColor: #0b132b;        /* Deepest Navy for Headlines */
+        --bodyTextColor: #3a506b;      /* Slate Gray for body text */
+        --bodyTextColorWhite: #f0f5f9; /* Clean Off-white */
 
-		/* Dark Mode Styles */
-		--dark: #082032;
-		--medium: #2c394b;
-		--accent: #334756;
+        /* Dark Mode Styles - The "Abyss" Palette */
+        --dark: #0b132b;               /* Deep Abyss */
+        --medium: #1c2541;              /* Deep Sea Surface */
+        --accent: #3a506b;              /* Oceanic Accent */
 
-		/* 13px - 16px */
-		--topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
-		/* 31px - 49px */
-		--headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
-		--bodyFontSize: 1rem;
-		/* 60px - 100px top and bottom */
-		--sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+        /* 13px - 16px */
+        --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+        /* 31px - 49px */
+        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+        --bodyFontSize: 1rem;
+        /* 60px - 100px top and bottom */
+        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
 
-		--headerFont: "Roboto", Arial, sans-serif;
-		--bodyFont: "Roboto", Arial, sans-serif;
-	}
+        --headerFont: "Montserrat", Arial, sans-serif;
+        --bodyFont: "Inter", Arial, sans-serif;
+    }
 
 	html,
 	body {
